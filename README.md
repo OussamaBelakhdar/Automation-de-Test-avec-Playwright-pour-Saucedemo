@@ -15,11 +15,29 @@ Technologies Utilisées :
 Playwright : Un framework d'automatisation des tests qui permet de simuler des actions utilisateur dans des navigateurs web.
 JavaScript : Le langage de programmation utilisé pour écrire le script d'automatisation.
 
-Comment Exécuter :
+Prérequis :
+Node.js
+npm
+Installation :
+Clonez le dépôt :
+git clone [URL_DU_DEPOT]
+Accédez au répertoire du projet :
+cd [NOM_DU_REPERTOIRE]
+Installez les dépendances :
+npm install
+Exécution des tests :
+Lancez les tests :
+npx playwright test
+Détails du test :
+Le script automatisé effectue les actions suivantes sur le site saucedemo.com :
 
-Assurez-vous d'avoir Node.js et Playwright installés.
-Clonez ce dépôt ou téléchargez le script saucedemoTest.js.
-Dans le terminal, naviguez vers le dossier contenant le script et exécutez node saucedemoTest.js.
+- Se connecte en utilisant les identifiants standard_user et secret_sauce.
+- Ajoute plusieurs articles au panier.
+- Poursuit le processus de commande.
+- Remplit les détails de l'expédition.
+- Termine la commande.
+- Se déconnecte.
+
 
 Contribution :
 Les contributions à ce projet sont les bienvenues ! Que vous souhaitiez ajouter des fonctionnalités, corriger des bugs ou améliorer la documentation, n'hésitez pas à créer une pull request.
