@@ -2,25 +2,25 @@
 Saucedemo Automation with Playwright
 This project provides a script to automate user interface tests for the Saucedemo website using Playwright. It simulates typical user actions like logging in, adding items to the cart, and logging out, while verifying the site responds as expected.
 
-Requirements
-Node.js
-npm
+Requirements :
+- Node.js
+- npm
 
-Basic Installation 
-Clone the repository:
+Basic Installation :
+- Clone the repository:
 git clone https://github.com/OussamaBelakhdar/Automation-de-Test-avec-Playwright-pour-Saucedemo
 
-Navigate to the project directory:
+- Navigate to the project directory:
 cd Automation-de-Test-avec-Playwright-pour-Saucedemo
 
-Install the dependencies:
+- Install the dependencies:
 npm install
 
-Running the Tests
+- Running the Tests
 Run the tests:
 npx playwright test
 
-Test Details
+- Test Details
 The automated script performs the following actions on the saucedemo.com site:
 
 Logs in using the credentials standard_user and secret_sauce.
