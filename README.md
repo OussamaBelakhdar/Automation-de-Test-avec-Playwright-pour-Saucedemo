@@ -1,43 +1,46 @@
 # Automation-de-Test-avec-Playwright-pour-Saucedemo
-Description du Projet : Automation de Tests avec Playwright pour Saucedemo
-Objectif :
-Ce projet vise à automatiser les tests de l'interface utilisateur du site web Saucedemo en utilisant le framework Playwright. Il simule des actions utilisateur typiques, telles que la connexion, l'ajout d'articles au panier, et la déconnexion, tout en vérifiant que le site réagit comme prévu.
+Saucedemo Automation with Playwright
+This project provides a script to automate user interface tests for the Saucedemo website using Playwright. It simulates typical user actions like logging in, adding items to the cart, and logging out, while verifying the site responds as expected.
 
-Caractéristiques Principales :
-
-Navigation : Le script navigue automatiquement vers la page de connexion de Saucedemo.
-Simulation d'Actions Utilisateur : Il simule des actions telles que la saisie du nom d'utilisateur et du mot de passe, l'ajout d'articles au panier, et la déconnexion.
-Assertions : À chaque étape clé, des vérifications (ou assertions) sont effectuées pour s'assurer que le site web réagit comme prévu.
-Portabilité : Grâce à Playwright, ce script peut être exécuté sur différents navigateurs avec peu ou pas de modifications.
-
-Technologies Utilisées :
-
-Playwright : Un framework d'automatisation des tests qui permet de simuler des actions utilisateur dans des navigateurs web.
-JavaScript : Le langage de programmation utilisé pour écrire le script d'automatisation.
-
-Prérequis :
+Requirements
 Node.js
 npm
-Installation :
-Clonez le dépôt :
-git clone [URL_DU_DEPOT]
-Accédez au répertoire du projet :
-cd [NOM_DU_REPERTOIRE]
-Installez les dépendances :
+
+Basic Installation 
+Clone the repository:
+git clone https://github.com/OussamaBelakhdar/Automation-de-Test-avec-Playwright-pour-Saucedemo
+
+Navigate to the project directory:
+cd Automation-de-Test-avec-Playwright-pour-Saucedemo
+
+Install the dependencies:
 npm install
-Exécution des tests :
-Lancez les tests :
+
+Running the Tests
+Run the tests:
 npx playwright test
-Détails du test :
-Le script automatisé effectue les actions suivantes sur le site saucedemo.com :
 
-- Se connecte en utilisant les identifiants standard_user et secret_sauce.
-- Ajoute plusieurs articles au panier.
-- Poursuit le processus de commande.
-- Remplit les détails de l'expédition.
-- Termine la commande.
-- Se déconnecte.
+Test Details
+The automated script performs the following actions on the saucedemo.com site:
 
+Logs in using the credentials standard_user and secret_sauce.
+Adds multiple items to the cart.
+Proceeds with the checkout process.
+Fills in the shipping details.
+Completes the order.
+Logs out.
 
-Contribution :
-Les contributions à ce projet sont les bienvenues ! Que vous souhaitiez ajouter des fonctionnalités, corriger des bugs ou améliorer la documentation, n'hésitez pas à créer une pull request.
+Advanced Configuration
+Playwright supports multiple browsers out-of-the-box (Chromium, Firefox, and Webkit). To specify a different browser for your tests, you can pass the --project flag:
+
+npx playwright test --project=firefox
+To execute tests in headless mode (no browser UI), you can set the headless option in the Playwright config file to true.
+
+Contribution
+Contributions to this project are welcomed! Whether you want to add features, fix bugs, or improve documentation, feel free to create a pull request. Please ensure your contributions are well-tested and documented.
+
+License
+This project is licensed under the MIT License.
+
+Contact
+If you have any questions or suggestions regarding this project, feel free to open an issue or contact the maintainer at oussamabelakhdar@gmail.com.
