@@ -1,4 +1,4 @@
-# Automation-de-Test-avec-Playwright-pour-Saucedemo
+# Automatisation-de-Test-avec-Playwright-pour-Saucedemo
 Saucedemo Automation with Playwright
 This project provides a script to automate user interface tests for the Saucedemo website using Playwright. It simulates typical user actions like logging in, adding items to the cart, and logging out, while verifying the site responds as expected.
 
